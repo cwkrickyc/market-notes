@@ -1,22 +1,28 @@
-# 市場資訊筆記 - GitHub / Vercel 部署專案
+# 【市場資訊筆記】2026年10月9日 網頁發佈專案
 
-本專案包含 2026 年 10 月 8 日《市場資訊筆記》之最新完整響應式網頁，字體已全面加大、排版極其清晰，支援手機、平板與電腦自適應閱讀。
+本專案為【市場資訊筆記】專供 GitHub 與 Vercel 一鍵快速部署的靜態響應式網頁專案包。
 
 ## 專案內容
-- `index.html`：2026 年 10 月 8 日最新《市場資訊筆記》大字版響應式網頁
-- `vercel.json`：Vercel 部署設定檔
-- `README.md`：部署說明文件
+- `index.html`：大字版自適應（Responsive）每日市場資訊筆記網頁，內置目錄跳轉、優雅深藍專業金融排版與移動端適配。
+- `vercel.json`：Vercel 靜態路由重定向設定檔。
+- `README.md`：部署操作手冊。
 
-## 發佈至 GitHub 與 Vercel 指引
+## 一鍵部署至 Vercel 指引
 
-### 步驟一：推送到 GitHub
-如果你已有本機 Git Repository，將檔案複製進去後執行：
+### 方法一：透過 GitHub 與 Vercel 網頁介面自動部署
+1. 將本專案解壓後的檔案上傳或推送至 GitHub 的全新倉庫（Repository），例如 `market-notes-20261009`。
+2. 登入 [Vercel 官方網站](https://vercel.com)。
+3. 點擊 **"Add New..."** -> **"Project"**。
+4. 導入剛剛建立的 GitHub 倉庫。
+5. **Framework Preset** 保持為 `Other`，根目錄保持 `./`。
+6. 點擊 **Deploy**，約 30 秒內即可獲得專屬公開瀏覽網址（例如 `https://market-notes-20261009.vercel.app`）。
+
+### 方法二：透過 Vercel CLI 本地終端機快速部署
+在解壓後的專案目錄下執行：
 ```bash
-git add .
-git commit -m "Update Market Notes to 2026-10-08"
-git push origin main
+npm i -g vercel
+vercel deploy --prod
 ```
-（如果是新建立的 Repo，在 GitHub 建立 `market-notes` 後，直接在網頁端點擊「Upload files」，拖放 `index.html`、`vercel.json` 與 `README.md` 即可提交）。
 
-### 步驟二：Vercel 自動部署
-只要 GitHub Repo 已與 Vercel 關聯，每次 `git push` 後 Vercel 會在 10 秒內自動拉取最新 `index.html` 完成即時上線！
+---
+©2026 迷途伴讀書僮。版權所有，請勿轉載。
