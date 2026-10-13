@@ -1,4 +1,4 @@
-# 【市場資訊筆記】2026年10月10日 網頁發佈專案
+# 【市場資訊筆記】2026年10月13日 網頁發佈專案
 
 本專案為【市場資訊筆記】專供 GitHub 與 Vercel 一鍵快速部署的靜態響應式網頁專案包。
 
@@ -10,12 +10,12 @@
 ## 一鍵部署至 Vercel 指引
 
 ### 方法一：透過 GitHub 與 Vercel 網頁介面自動部署
-1. 將本專案解壓後的檔案上傳或推送至 GitHub 的全新倉庫（Repository），例如 `market-notes-20261010`。
+1. 將本專案解壓後的檔案上傳或推送至 GitHub 的全新倉庫（Repository），例如 `market-notes-20261013`。
 2. 登入 [Vercel 官方網站](https://vercel.com)。
 3. 點擊 **"Add New..."** -> **"Project"**。
 4. 導入剛剛建立的 GitHub 倉庫。
 5. **Framework Preset** 保持為 `Other`，根目錄保持 `./`。
-6. 點擊 **Deploy**，約 30 秒內即可獲得專屬公開瀏覽網址（例如 `https://market-notes-20261010.vercel.app`）。
+6. 點擊 **Deploy**，約 30 秒內即可獲得專屬公開瀏覽網址（例如 `https://market-notes-20261013.vercel.app`）。
 
 ### 方法二：透過 Vercel CLI 本地終端機快速部署
 在解壓後的專案目錄下執行：
